@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu+Mono:wght@400;700&display=swap');
 
 :root {
-  /* COLORS */
-  --borders: #fca311;
-  /* Nav Bar Colors */
-  --nav-background: #000103;
-  --nav-text: #C7A67C;
-  /* Main Colors */
-  --main-background: #e5e5e5;
-  --main-text: #000103;
+    /* COLORS */
+    --borders: #fca311;
+    /* Nav Bar Colors */
+    --nav-background: #000103;
+    --nav-text: #C7A67C;
+    /* Main Colors */
+    --main-background: #e5e5e5;
+    --main-text: #000103;
 
-  /* FONT FAMILY */
-  --mont: 'Montserrat', sans-serif;
-  --ubuntu: 'Ubuntu Mono', monospace;
+    /* FONT FAMILY */
+    --mont: 'Montserrat', sans-serif;
+    --ubuntu: 'Ubuntu Mono', monospace;
 }
 
 
 /* RESET SPACING HTML */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -28,13 +28,21 @@ body {
 }
 
 /* Navbar */
-.navbar-brand, .nav-link {
+.navbar-brand,
+.nav-link,
+.navbar-toggler {
     color: var(--nav-text) !important;
 }
+
+.navbar-toggler {
+    border-color: var(--nav-text) !important;
+}
+
 /* Navbar End */
 
 /* Hero Section */
 .jumbotron {
     height: calc(100vh - 40px);
 }
+
 /* Hero Section End*/
