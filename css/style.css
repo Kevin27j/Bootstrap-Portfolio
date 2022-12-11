@@ -173,7 +173,22 @@ a {
 /* PROJECTS END */
 
 /* FOOTER */
+.footer {
+    background-color: var(--main-text);
+    padding: 5rem 1rem;
+    color: white;
+}
 
+.footer .nav {
+    margin: 1.8rem 0;
+}
+
+.btn-dark {
+    background-color: var(--main-background);
+    color: var(--nav-text);
+    width: 100px;
+    margin: 0 1rem;
+}
 /* FOOTER END */
 
 /* MAIN END */
