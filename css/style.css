@@ -87,7 +87,7 @@ a {
 .jumbotron {
     height: calc(100vh - 40px);
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-banner.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +99,8 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: solid white;
+    border: 5px solid white;
+    cursor: pointer;
     /* Center in the middle of the banner */
     position: absolute;
     top: 30%;
@@ -109,7 +110,7 @@ a {
 }
 
 .profile-avatar:hover {
-    border: solid var(--borders);
+    border: 5px solid var(--borders);
 }
 
 .display-4 {
@@ -170,25 +171,41 @@ a {
     height: 15vw;
     object-fit: cover;
 }
+
 /* PROJECTS END */
 
 /* FOOTER */
 .footer {
     background-color: var(--main-text);
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
     color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero-banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .footer .nav {
-    margin: 1.8rem 0;
+    margin: 3rem 0;
 }
 
 .btn-dark {
-    background-color: var(--main-background);
-    color: var(--nav-text);
-    width: 100px;
+    background-color: var(--main-text);
+    border: solid white;
+    padding: .5rem 3rem;
     margin: 0 1rem;
+    box-shadow: 5px 5px 10px;
 }
+
+.btn-dark:hover {
+    background-color: var(--main-text);
+    color: var(--nav-text);
+    border: solid var(--borders);
+    transform: translateY(-4px);
+}
+
 /* FOOTER END */
 
 /* MAIN END */
