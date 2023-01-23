@@ -10,8 +10,8 @@
 
 ## Description
 
-This is a re-designed version of my Portfolio Website, this time using Bootstrap.
-Feedback is welcome.
+Welcome to my personal portfolio!
+Here you will find a collection of my projects and skills.
 
 ## Screenshot
 
